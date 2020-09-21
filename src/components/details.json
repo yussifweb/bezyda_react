@@ -1,0 +1,108 @@
+{
+ "home": [
+     {
+       "name": "",
+       "src" : ""  
+     }
+ ],
+ "vision" : [
+    {
+     "name" : "Our Vision",
+     "content" : "To become the top Zongo youth platforms in Ghana and ensuring peace and development in our community."   
+    }
+ ],
+ "mission" : [
+    {
+     "name" : "Mission Statement",
+     "content" : "Creating a better and secured environment around us and beyond"   
+    }
+ ],
+ "values" : [
+    {
+     "name" : "Our Core Values",
+     "v1" : "<b>Unity</b> bringing the youth together.",
+     "v2" : "<b>Commitment</b> willing to do what we wish to do.",
+     "v3" : "<b>Loyalty</b> trustworthy in whatever we do.",
+     "v4" : "<b>Honesty</b> dependant on each other.",
+     "v5" : "<b>Consistency</b> we are never going back." 
+    }
+ ],
+ "motto": [
+     {
+      "name" : "Motto",
+      "motto" : "Together we Can, YES WE CAN......"   
+     }
+ ],
+ "team" : [
+     {
+      "name" : "",
+      "src" : "",
+      "post" : "",
+      "mail" : "",
+      "tel" : ""
+     },
+     {
+      "name" : "",
+      "src" : "",
+      "post" : "",
+      "mail" : "",
+      "tel" : ""
+     },
+     {
+      "name" : "",
+      "src" : "",
+      "post" : "",
+      "mail" : "",
+      "tel" : ""
+     },
+     {
+      "name" : "",
+      "src" : "",
+      "post" : "",
+      "mail" : "",
+      "tel" : ""
+     },
+     {
+      "name" : "",
+      "src" : "",
+      "post" : "",
+      "mail" : "",
+      "tel" : ""
+     },
+     {
+      "name" : "",
+      "src" : "",
+      "post" : "",
+      "mail" : "",
+      "tel" : ""
+     }
+ ],
+ "contact" : [
+     {
+      "name" : "Bekwai Zongo Youth Development Association",
+      "addr" : "P.O Box 61,<br/>Bekwai - Ashanti<br/>Ghana<br/>West-Africa"
+     }
+ ],
+ "online" : [
+     {
+      "name" : "Email",
+      "url" : "bezydagh@gmail.com",
+      "src" : "fa fa-envelope"
+     },
+     {
+      "name" : "Bekwai Zongo Youth Dev't Ass.",
+      "url" : "https://www.facebook.com/groups/185721122880549/?ref=share",
+      "src" : "fa fa-facebook-square"
+     },
+     {
+      "name" : "@bezydagh",
+      "url" : "https://twitter.com/bezydagh/",
+      "src" : "fa fa-twitter-square"
+     },
+     {
+      "name" : "@bezydagh",
+      "url" : "https://instagram.com/bezydagh/",
+      "src" : "fa fa-instagram"
+     }
+ ]       
+}
