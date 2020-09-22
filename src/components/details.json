@@ -5,33 +5,23 @@
        "src" : ""  
      }
  ],
- "vision" : [
+ "about" : [
     {
-     "name" : "Our Vision",
-     "content" : "To become the top Zongo youth platforms in Ghana and ensuring peace and development in our community."   
+     "vision" : "Our Vision",
+     "v_content" : "To become the top Zongo youth platforms in Ghana and ensuring peace and development in our community.",
+     "mission" : "Mission Statement",
+     "m_content" : "Creating a better and secured environment around us and beyond",
+     "value" : "Our Core Values",
+     "values" : [
+        "UNITY bringing the youth together.",
+        "COMMITMENT willing to do what we wish to do.",
+        "LOYALTY trustworthy in whatever we do.",
+        "HONESTY dependant on each other.",
+        "CONSISTENCY we are never going back."
+     ],
+     "motto" : "Motto",
+     "m_cont" : "Together we Can, YES WE CAN......"   
     }
- ],
- "mission" : [
-    {
-     "name" : "Mission Statement",
-     "content" : "Creating a better and secured environment around us and beyond"   
-    }
- ],
- "values" : [
-    {
-     "name" : "Our Core Values",
-     "v1" : "<b>Unity</b> bringing the youth together.",
-     "v2" : "<b>Commitment</b> willing to do what we wish to do.",
-     "v3" : "<b>Loyalty</b> trustworthy in whatever we do.",
-     "v4" : "<b>Honesty</b> dependant on each other.",
-     "v5" : "<b>Consistency</b> we are never going back." 
-    }
- ],
- "motto": [
-     {
-      "name" : "Motto",
-      "motto" : "Together we Can, YES WE CAN......"   
-     }
  ],
  "team" : [
      {
@@ -79,30 +69,37 @@
  ],
  "contact" : [
      {
-      "name" : "Bekwai Zongo Youth Development Association",
-      "addr" : "P.O Box 61,<br/>Bekwai - Ashanti<br/>Ghana<br/>West-Africa"
-     }
- ],
- "online" : [
-     {
-      "name" : "Email",
-      "url" : "bezydagh@gmail.com",
-      "src" : "fa fa-envelope"
-     },
-     {
-      "name" : "Bekwai Zongo Youth Dev't Ass.",
-      "url" : "https://www.facebook.com/groups/185721122880549/?ref=share",
-      "src" : "fa fa-facebook-square"
-     },
-     {
-      "name" : "@bezydagh",
-      "url" : "https://twitter.com/bezydagh/",
-      "src" : "fa fa-twitter-square"
-     },
-     {
-      "name" : "@bezydagh",
-      "url" : "https://instagram.com/bezydagh/",
-      "src" : "fa fa-instagram"
-     }
- ]       
+      "name" : "Contact",
+      "address" : [
+        {
+        "name" : "Bekwai Zongo Youth Development Association",
+        "addr" : "P.O Box 61,<br/>Bekwai - Ashanti<br/>Ghana<br/>West-Africa"
+        }
+    ],
+    "online" : [
+        {
+         "name" : "Email",
+         "url" : "bezydagh@gmail.com",
+         "src" : "fa fa-envelope"
+        },
+        {
+         "name" : "Bekwai Zongo Youth Dev't Ass.",
+         "url" : "https://www.facebook.com/groups/185721122880549/?ref=share",
+         "src" : "fa fa-facebook-square"
+        },
+        {
+         "name" : "@bezydagh",
+         "url" : "https://twitter.com/bezydagh/",
+         "src" : "fa fa-twitter-square"
+        },
+        {
+         "name" : "@bezydagh",
+         "url" : "https://instagram.com/bezydagh/",
+         "src" : "fa fa-instagram"
+        }
+    ]       
+
+  }
+    
+ ]
 }

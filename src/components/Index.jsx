@@ -4,7 +4,7 @@ import Home from './Home'
 import About from './About'
 import Team from './Team'
 import Contact from './Contact'
-import {BrowserRouter as Router, Switch, Route, Link} from 'react-router-dom';
+import {BrowserRouter as Router, Switch, Route, NavLink} from 'react-router-dom';
 
 function Index() {
     return (
@@ -16,34 +16,49 @@ function Index() {
           <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>
-        <div className="collapse navbar-collapse" id="navbarNav">
-            <ul className="nav nav-pills mb-3">
-            <Link to='/'>
-            <li className="nav-link">Home<span className="sr-only">(current)</span></li>
-            </Link>
-            <Link to='/about'>
-            <li className="nav-link">About</li>
-            </Link>
-            <Link to='/team'>
-            <li className="nav-link">Our Team</li>
-            </Link>
-            <Link to='/contact'>
-            <li className="nav-link">Contact Us</li>
-            </Link>
-            </ul>
+        <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div className="navbar-nav">
+            <NavLink activeClassName="active" className="nav-link" to="/">
+             Home
+            </NavLink>
+            <NavLink activeClassName="active" className="nav-link"  to="/about">
+            About
+            </NavLink>
+            <NavLink activeClassName="active" className="nav-link"  to="/team">
+            Our Team
+            </NavLink>
+            <NavLink activeClassName="active" className="nav-link"  to="/contact">
+            Contact Us
+           </NavLink>
+        </div>
         </div>      
         </nav>
         </div>
 
-
         <Switch>
             <Route path="/" exact component={Home}></Route>
 
-            <Route path="/about" exact component={About}></Route>
+            <Route path="/about" exact component={About}>
+                {
+                 details.about.map((ab) => {
+                     return <About key={ab.vision}
+                     vision={ab.vision} v_content={ab.v_content}
+                     mission={ab.mission} m_content={ab.m_content}
+                     value={ab.value} values={ab.values}
+                     motto={ab.motto} m_cont={ab.m_cont} ></About> 
+                 })
+                }                 
+            </Route>
 
             <Route path="/team" exact component={Team}></Route>
 
-            <Route path="/contact" exact component={Contact}></Route>
+            <Route path="/contact" exact component={Contact}>
+                {
+                 details.contact.map((cont) => {
+                    return <Contact key={cont.name} address={cont.address} online={cont.online}></Contact>
+                 })
+                }
+            </Route>
 
         </Switch>
 
