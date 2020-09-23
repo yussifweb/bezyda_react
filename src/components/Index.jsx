@@ -13,22 +13,22 @@ function Index() {
         <nav className="navbar navbar-expand-lg navbar-light bg-success">
         <a className="navbar-brand logo-link" href="index.html">
         <img src="images/logo.png" width="40" height="40" className="logo" alt="logo" loading="lazy"/><span className="org-name">BZYDA</span></a>
-          <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
-        </button>
-        <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
+          </button>
+          <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div className="navbar-nav">
             <NavLink activeClassName="active" className="nav-link" to="/">
-             Home
+              Home
             </NavLink>
-            <NavLink activeClassName="active" className="nav-link"  to="/about">
-            About
+            <NavLink activeClassName="active" className="nav-link" to="/about">
+              About
             </NavLink>
-            <NavLink activeClassName="active" className="nav-link"  to="/team">
-            Our Team
+            <NavLink activeClassName="active" className="nav-link" to="/team">
+              Our Team
             </NavLink>
-            <NavLink activeClassName="active" className="nav-link"  to="/contact">
-            Contact Us
+            <NavLink activeClassName="active" className="nav-link" to="/contact">
+              Contact Us
            </NavLink>
         </div>
         </div>      
@@ -50,7 +50,27 @@ function Index() {
                 }                 
             </Route>
 
-            <Route path="/team" exact component={Team}></Route>
+            <Route path="/team" exact component={Team}>
+            <div className="container">
+            <div class="row pt-5 mb-3">
+                <div class="col-md-12">
+                  <h1 class="text-center">Our Team</h1>
+                </div>
+              </div>
+              
+              <div class="row team mb-5">
+
+                {
+                 details.team.map((t) => {
+                     return <Team key={t.name}
+                     name={t.name} src={t.src} post={t.post}
+                     mail={t.mail} tel={t.tel}></Team>
+                 })
+                }
+            </div>
+              </div>
+
+            </Route>
 
             <Route path="/contact" exact component={Contact}>
                 {
@@ -62,7 +82,16 @@ function Index() {
 
         </Switch>
 
-        </Router>
+    <footer>
+    <div className="f-top">
+    <div className="footer text-center">
+          <p>All Rights reserved</p>
+          <p>&copy; 2020</p>
+        </div>
+    </div>
+    </footer>  
+
+    </Router>
 
         
     )

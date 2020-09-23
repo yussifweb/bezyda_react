@@ -25,47 +25,47 @@
  ],
  "team" : [
      {
-      "name" : "",
-      "src" : "",
-      "post" : "",
-      "mail" : "",
-      "tel" : ""
+      "name" : "Yussif",
+      "src" : "YUSSIF1",
+      "post" : "Web",
+      "mail" : "samplemail@bezyda.com",
+      "tel" : "0244444444"
      },
      {
-      "name" : "",
-      "src" : "",
-      "post" : "",
-      "mail" : "",
-      "tel" : ""
+      "name" : "Dada Lateef",
+      "src" : "dl",
+      "post" : "PRO",
+      "mail" : "pro@dezyda.com",
+      "tel" : "0544444444"
      },
      {
-      "name" : "",
-      "src" : "",
-      "post" : "",
-      "mail" : "",
-      "tel" : ""
+      "name" : "Awana",
+      "src" : "Awal",
+      "post" : "Organizer",
+      "mail" : "organizer@bezyda.com",
+      "tel" : "0599999999"
      },
      {
-      "name" : "",
-      "src" : "",
-      "post" : "",
-      "mail" : "",
-      "tel" : ""
+      "name" : "Yussif",
+      "src" : "YUSSIF1",
+      "post" : "Web",
+      "mail" : "samplemail@bezyda.com",
+      "tel" : "0244444444"
      },
      {
-      "name" : "",
-      "src" : "",
-      "post" : "",
-      "mail" : "",
-      "tel" : ""
+      "name" : "Dada Lateef",
+      "src" : "dl",
+      "post" : "PRO",
+      "mail" : "pro@dezyda.com",
+      "tel" : "0544444444"
      },
      {
-      "name" : "",
-      "src" : "",
-      "post" : "",
-      "mail" : "",
-      "tel" : ""
-     }
+      "name" : "Awana",
+      "src" : "Awal",
+      "post" : "Organizer",
+      "mail" : "organizer@bezyda.com",
+      "tel" : "0599999999"
+     }     
  ],
  "contact" : [
      {
@@ -73,15 +73,13 @@
       "address" : [
         {
         "name" : "Bekwai Zongo Youth Development Association",
-        "addr" : "P.O Box 61,<br/>Bekwai - Ashanti<br/>Ghana<br/>West-Africa"
+        "addr" : "P.O Box 61, Bekwai - Ashanti Ghana \nWest-Africa",
+        "mail" : "bezydagh@gmail.com",
+        "url" : "mailto:bezydagh@gmail.com",
+        "src" : "fa fa-envelope"
         }
     ],
     "online" : [
-        {
-         "name" : "Email",
-         "url" : "bezydagh@gmail.com",
-         "src" : "fa fa-envelope"
-        },
         {
          "name" : "Bekwai Zongo Youth Dev't Ass.",
          "url" : "https://www.facebook.com/groups/185721122880549/?ref=share",

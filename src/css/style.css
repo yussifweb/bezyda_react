@@ -16,7 +16,6 @@ body{
     text-align: center;
     font-size: 20px;
     font-weight: 600;
-    border-radius: 5px;
 }
 
 .nav-link:hover{
@@ -27,6 +26,7 @@ body{
 .active{
     background-color: #ffffff !important;
     color: #5cb85c !important;
+    border-radius: 5px;
    }
 
 
@@ -105,31 +105,36 @@ img{
     margin-top: 3.3rem;
 }
 
-.social-media .fa{
-    font-size: 1.5rem;
-}
 
-.social-media ul li a{
+.social-media a{
     color: black;
     text-decoration: none;
+    font-size: 1.2rem;
 }
 
 .team p{
     line-height: 5px;
 }
-
-footer{
+.f-top{
     border-top: 5px #1eb61e solid;
 }
 
+footer{
+    padding-top: 2rem;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
 @media(max-width: 1300px){
-    nav ul li{
+    /* nav ul li{
         margin: 0;
         color: white;
         text-align: center;
         font-size: 20px;
         font-weight: 600;
-    }
+    } */
 
     .logo-link{
         margin-top: -10px;
@@ -150,13 +155,13 @@ footer{
 
 @media(max-width: 600px){
     
-    nav ul li{
+    /* nav ul li{
         margin: 0;
         color: white;
         text-align: center;
         font-size: 20px;
         font-weight: 600;
-    }
+    } */
 
     .logo-link{
         margin-top: 10px;
