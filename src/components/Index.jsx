@@ -82,14 +82,14 @@ function Index() {
 
         </Switch>
 
-    <footer>
-    <div className="f-top">
-    <div className="footer text-center">
-          <p>All Rights reserved</p>
-          <p>&copy; 2020</p>
+        <footer>
+        <div className="f-top">
+        <div className="footer text-center">
+              <p>All Rights reserved</p>
+              <p>&copy; 2020</p>
+            </div>
         </div>
-    </div>
-    </footer>  
+        </footer>  
 
     </Router>
 

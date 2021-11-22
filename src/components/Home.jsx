@@ -14,7 +14,6 @@ export class Home extends Component {
                 <a className="btn btn-primary btn-lg" href="/" role="button">Learn more</a>
               </div>
             </div>
-  
             </div>
         )
     }
